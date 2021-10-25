@@ -120,3 +120,24 @@ section {
     padding: .625rem 1.25rem;
     font-size: 1rem;
 }
+
+.intro {
+    text-align: center;
+}
+
+.intro h2 {
+    font-size: 3.4375rem; /* <- 55px */
+    color:#024e76;
+    margin-bottom: 1.9375rem; /* 35px */
+    padding: 0 6.25 1.25px 6.25px; /* 0 100px 20px 100px */
+    border-bottom: 3px solid;
+    border-color: #fce138;
+}
+
+.intro p {
+    line-height: 1.7;
+    color: #39a6b2;
+    width: 80%;
+    font-size: 1.25rem; /* 20px */
+    margin: 0 auto;
+}
