@@ -1,3 +1,5 @@
+
+
 * {
     margin: 0;
     padding: 0;
@@ -194,11 +196,13 @@ section {
     margin: 0 auto 1.875rem auto; /* auto centers it */
     background:#024e76;
     color: #fce138;
+    border-radius: 1rem;
 }
 
 .trainer img {
     width: 35%;
     float: left;
+    border-radius: 1rem;
 }
 
 .text-left {
