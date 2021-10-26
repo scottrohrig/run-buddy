@@ -181,3 +181,52 @@ section {
     border-color: #39a6b2;
 
 }
+
+.trainers {
+    text-align: center;
+}
+
+.trainer { /* trainer article tag */
+    /* display: flex; */
+    /* overflow: auto; what magic is this?? */
+    display: flow-root;
+    width: 56.25rem;
+    margin: 0 auto 1.875rem auto; /* auto centers it */
+    background:#024e76;
+    color: #fce138;
+}
+
+.trainer img {
+    width: 35%;
+    float: left;
+}
+
+.text-left {
+    text-align: left;
+}
+.text-right {
+    text-align: right;
+}
+
+.trainer-bio {
+    padding: 2.1875rem;
+    width: 65%;
+    float: left;
+}
+
+.trainer-bio h3 {
+    font-size: 2rem;
+    margin-bottom: .5rem;
+}
+
+.trainer-bio h4 {
+    font-weight: lighter;
+    font-size: 1.625rem;
+    margin-bottom: 1.5625rem;
+
+}
+
+.trainer-bio p {
+    font-size: 1.0625rem;
+    line-height: 1.3;
+}
