@@ -71,6 +71,18 @@ section {
     padding: 3.75rem;
 }
 
+/* Utility Class to link to the top of the page */
+.top-link {
+    text-decoration: none;
+    font-size: 3rem;
+    font-weight: lighter;
+    color: #024e76;
+    position: absolute;
+    right: 2rem;
+}
+
+
+/* HERO / JUMBOTRON SECTION */
 .hero {
     position: relative;
     background-image: url("../images/hero-bg.jpg");
@@ -123,10 +135,11 @@ section {
     font-size: 1rem;
 }
 
+
+/* WHAT WE DO SECTION */
 .intro {
     text-align: center;
 }
-
 
 
 .intro p {
@@ -137,6 +150,9 @@ section {
     margin: 0 auto;
 }
 
+
+
+/* WHAT YOU DO SECTION */
 .steps {
     text-align: center;
     background: #fce138;
@@ -184,6 +200,8 @@ section {
 
 }
 
+
+/* MEET THE TRAINERS SECTION */
 .trainers {
     text-align: center;
 }
@@ -233,4 +251,50 @@ section {
 .trainer-bio p {
     font-size: 1.0625rem;
     line-height: 1.3;
+}
+
+
+/* REACH OUT SECTION */
+.contact {
+    background-color: #024e76;
+    text-align: center;
+}
+
+.contact h2 {
+    color: #fce138;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-info iframe {
+    height: 400px;
+    width: 400px;
+}
+
+.contact-info div {
+    width: 410px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    margin: 30px 0 0 60px;
+    color: white;
+
+}
+
+.contact-info h3 {
+    color: #fce138;
+    font-size: 2rem;
+}
+
+.contact-info p,
+.contact-info address {
+    margin: 20px 0;
+    line-height: 1.5;
+    font-size: 20px;
+    font-style: normal;
+}
+
+.contact-info a {
+    color: #fce138;
 }
