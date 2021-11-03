@@ -254,47 +254,44 @@ section {
 
 /* MEET THE TRAINERS SECTION */
 .trainers {
-
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .trainer { /* trainer article tag */
-    /* display: flex; */
-    /* overflow: auto; what magic is this?? */
-    display: flow-root;
-    width: 56.25rem;
-    margin: 0 auto 1.875rem auto; /* auto centers it */
+    margin: 20px; /* auto centers it */
     background:#024e76;
     color: #fce138;
     border-radius: 1rem;
+    flex: 1;
 }
 
 .trainer img {
-    width: 35%;
-    float: left;
-    border-radius: 1rem;
+    width: 100%;
+    border-radius: 1rem 1rem 0 0;
 }
 
 .trainer-bio {
-    padding: 2.1875rem;
-    width: 65%;
-    float: left;
+    padding: 1.5625rem;
+    line-height: 1.3;
 }
 
 .trainer-bio h3 {
-    font-size: 2rem;
-    margin-bottom: .5rem;
+    font-size: 1.75rem;
 }
 
 .trainer-bio h4 {
     font-weight: lighter;
-    font-size: 1.625rem;
-    margin-bottom: 1.5625rem;
+    font-size: 1.375rem;
+    margin-bottom: .9375rem;
 
 }
 
 .trainer-bio p {
     font-size: 1.0625rem;
-    line-height: 1.3;
 }
 
 
