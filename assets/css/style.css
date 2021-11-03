@@ -54,17 +54,18 @@ footer {
     background: #fce138;
     width: 100%;
     padding: 2.5rem 2.1875rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 footer h2 {
-    display: inline;
     color: #024e76;
     font-size: 1.875rem;
     margin: 0;
 }
 
 footer div {
-    float: right;
     line-height: 1.5;
     text-align: right;
 }
@@ -90,25 +91,36 @@ section {
 
 /* HERO / JUMBOTRON SECTION */
 .hero {
-    position: relative;
     background-image: url("../images/hero-bg.jpg");
     background-size: cover;
     background-position: center;
-    height: 37.5rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.hero-cta {
+    width: 35%;
+    text-align: right;
+    margin: 3.5%;
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.3;
+}
+
+.hero-cta h2 {
+    font-style: italic;
+    font-size: 55px;
+    color:#fce138;
 }
 
 .hero-form {
-    position: absolute;
-    /* left: 50%; */
-    /* bottom: 0;
-    right: 0; */
-    bottom: 120px;
-    right: 140px;
     background-color: #fce138;
     border: 3px solid #024e76;
     padding: 1.25rem;
-    width: 31.25rem;
     color: #024e76;
+    width: 40%;
+    margin: 3.5%;
 }
 
 .hero-form h3 {
