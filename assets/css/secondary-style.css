@@ -1,6 +1,13 @@
 /* note: applies only to privacy-policy.html bc it is only linked in that file. */
+.header {
+    /* BUG: bg-pos-y is overriden w/ 'center' by main CSS */
+    /* background-position: 80% bottom; */
+}
+
 .hero {
-    background-position: bottom;
+    /* BUG: bg-pos-y is overriden by main style CSS */
+    /* temporarily removed .hero bg positioning */
+    /* background-position: 80% bottom; */
     height: auto;
     text-align: center;
     margin-bottom: 40px;
