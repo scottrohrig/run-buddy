@@ -9,7 +9,7 @@ A website that offers fitness training services.
 ![css](https://img.shields.io/badge/-CSS3-teal?logo=css3&logoColor=whire&logoWidth=30)
 
 ## Website
-https://lernatino.github.io/run-buddy/
+[Run Buddy 2.0](https://scottrohrig.github.io/run-buddy/)
 
 ## Contribution
 Made with ❤ by Run Buddy Team
